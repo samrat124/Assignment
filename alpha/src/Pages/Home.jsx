@@ -49,7 +49,7 @@ const Home = () => {
                 First Name
             <input name='first-name' type="text" className="fname" onChange={handleChange}  placeholder=''/>
             </label>
-            <br/>
+             <br/>
             <label>
                 Last Name
             <input name='last-name' type="text" className="lname" onChange={handleChange}  placeholder=''/>
@@ -58,7 +58,7 @@ const Home = () => {
            <div className="name">
             <label>
                 Email
-            <input name='email' onChange={handleChange} type="email" className="fname"  placeholder=''/>
+            <input  name='email' onChange={handleChange} type="email" className="fname"  placeholder=''/>
             </label>
             <br/>
             <label>

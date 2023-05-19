@@ -21,7 +21,7 @@ opacity: 1;
 }
 .group-main{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .group-div{
     height: 30px;
@@ -64,7 +64,7 @@ opacity: 1;
 .rate{
     display: grid;
     width:90%;
-    margin: auto;
+    
 }
 .form{
     display: grid;
@@ -97,9 +97,13 @@ opacity: 1;
 .describe-select{
     height: 20px;
     padding: 15px;
+    width: 100%;
+     
 }
  .rate{
     row-gap: 10px;
+    width: 90%;
+    margin-left: 5%;
  }
 .form-top{
     display: grid;
@@ -297,7 +301,8 @@ background-size: cover;
     }
     .form{
         height: 850px;
-        
+        width: 90%;
+         
     }
     .name{
         gap:5px;
@@ -309,6 +314,15 @@ background-size: cover;
         width: 100%;
          
     }
+    .lname{
+        width: 100%;
+    }
+    .fname{
+        width: 100%;
+    }
+     .describe-select{
+        width: 90%;
+     }
 
 
     .second-part{
@@ -316,7 +330,7 @@ background-size: cover;
    width:100%;
    height: 500px;
     background-size: cover;
-    margin-top: 1300px;
+    margin-top: 1400px;
     background-position: center;
     background-repeat: no-repeat;
     }
@@ -407,6 +421,16 @@ background-size: cover;
         display: flex;
         text-align: center;
        color: #848484;
+    }
+
+
+
+    .describe-select{
+        width: 100%;
+    }
+    .rate{
+        width:100%;
+        margin-left: 0px;
     }
     
 }
