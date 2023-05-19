@@ -1,0 +1,391 @@
+.home-main{
+    background-image: url("../utils/bannerImg.png");
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+}
+.text-main{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    margin-top: 5%;
+    justify-content: space-around;
+}
+.logo{
+    width: 40%;
+}
+
+.article2{
+    color: #848484;
+opacity: 1;
+}
+.group-main{
+    display: flex;
+    justify-content: space-around;
+}
+.group-div{
+    height: 30px;
+    background-color: black;
+     width: 30px;
+     border-radius: 50%;
+     padding: 10px;
+}
+.group1{
+    width: 100%;
+    height:100% ;
+    
+}
+.form-main{
+    width:40%;
+    /* border:5px solid black; */
+    justify-content: space-around;
+    background-color: #FFFFFF;
+    box-shadow: 5px 5px 5px grey;
+}
+.name>label{
+    display: grid;
+}
+.name{
+    display: flex;
+    justify-content: space-around;
+}
+.state{
+    height: 30px;
+     
+    width: 90%;
+    margin: auto;
+}
+.state-main{
+    display: grid;
+    width: 40%;
+    margin-left: 5%;
+    height: 100%;
+}
+.rate{
+    display: grid;
+    width:90%;
+    margin: auto;
+}
+.form{
+    display: grid;
+    row-gap: 10px;
+    height: 700px;
+    padding: 10px;
+}
+.form-article{
+    color: #848484;
+    margin-top: -3%;
+}
+.textarea-form{
+    width: 90%;
+    margin: auto;   
+}
+.textarea-form>label{
+    display: grid;
+    row-gap: 10px;
+}
+.checkbox-form{
+    width: 90%;
+    
+    margin: auto;  
+      
+}
+.checkbox-form>label{
+    display: flex;
+    gap: 5px;
+}
+.describe-select{
+    height: 20px;
+    padding: 15px;
+}
+ .rate{
+    row-gap: 10px;
+ }
+.form-top{
+    display: grid;
+    row-gap: 0;
+}
+.below-form{
+    color: #848484;
+}
+ 
+.form-btn{
+    background-color: #F26621;
+    color: #FFFFFF;
+    width: 30%;
+    margin: auto;
+    height: 40px;
+    border: none;
+}
+
+
+/* second-part */
+
+.second-part{
+    background-image: url('../utils/Group-217.png');
+width:100%;
+height: 500px;
+background-size: cover;
+}
+.second-text{
+    width: 80%;
+    display: grid;
+    margin: auto;
+    
+}
+.second-text-part1{
+    margin-top: 10%;
+    width: 50%;
+    line-height: 25px;
+}
+.second-text-part1>li{
+    color: #848484;
+}
+
+
+
+/* part-3 */
+.part3{
+    height: 900px;
+    display: flex;
+}
+.part3-part1{
+    background-image: url('../utils/GS_DIGITAL_AD_WALL_FILMS_INTERIOR_DESIGN_COLLECTION_Indoor_MPI8621_Removable.png');
+    width: 40%;
+    height: 100%;
+    background-size: cover;
+}
+.part3-part2{
+    width: 60%;
+    background-color: #E5E5E5;
+}
+.part3-part2-part1{
+    
+    width: 90%;
+    margin: auto;
+    margin-top: 10%;
+}
+.content-img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    padding: 10px;
+}
+.content-img>img{
+    width: 100%;
+    height: 100%;
+}
+.content1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.content1>label{
+    width: 80%;
+}
+.part3-btn{
+    background-color: #F26621;
+    height: 40px;
+    width: 200px;
+    color: #FFFFFF;
+    margin-left: 5%;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    margin-top: 5%;
+}
+
+
+
+/* part4 */
+.part4{
+    background-color: black;
+    width: 100%;
+    height: 300px;
+}
+.part4-part1{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    
+}
+.foot-div1{
+   margin-top: 50px;
+   display: flex; 
+   width: 50%;
+   justify-content: space-around;
+}
+ 
+.foot1>h3{
+    color:#848484;
+}
+.foot2>h3{
+    color: #848484;
+}
+.foot-div2{
+    width: 50%;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   margin-top: 50px;
+}
+.foot3{
+    width: 50%;
+}
+.foot3>p{
+    color:#848484
+}
+.foot4{
+    width: 30%;
+}
+.foot4>p{
+    color: #848484;
+}
+.part5{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.part5>p{
+    width: 100%;
+    margin-left: 30%;
+    display: flex;
+    text-align: center;
+   color: #848484;
+}
+
+
+
+
+
+/* Media-Query */
+
+@media screen and (max-width:700px) {
+    .home-main{
+        background-image: url("../utils/bannerImg.png");
+    height: 1300px;
+    width: 100%;
+    background-size: cover;
+    }
+    .text-main{
+        display: grid;
+        width: 90%;
+        margin: auto;
+    }
+    .logo{
+        width: 100%;
+    }
+    .form-main{
+        width: 100%;
+    }
+    .form{
+        height: 850px;
+    }
+    .name{
+        gap:5px;
+    }
+    .textarea-form{
+        width: 100%;
+    }
+    .describe-select{
+        width: 100%;
+         
+    }
+
+
+    .second-part{
+background-image: url('../utils/Group-217.png');
+width:100%;
+height: 500px;
+background-size: cover;
+    }
+    .second-text-part1{
+        margin-top: 10%;
+        width: 100%;
+        line-height: 25px;
+    }
+    .part3{
+        height: 1200px;
+        display: flex;
+        flex-direction: column-reverse;
+         
+    }
+    .part3-part1{
+        background-image: url('../utils/GS_DIGITAL_AD_WALL_FILMS_INTERIOR_DESIGN_COLLECTION_Indoor_MPI8621_Removable.png');
+        width: 100%;
+        height: 600px;
+        background-size: cover;
+        
+    }
+    .part3-part2{
+        width: 100%;
+        background-color: #E5E5E5;
+    }
+    .content1>label{
+        width: 100%;
+         
+    }
+    .content1{
+        display: flex;
+    align-items: center;
+    gap:10px
+    }
+    .part3-btn{
+        margin-bottom: 50px;
+    }
+
+
+
+    .part4{
+        background-color: black;
+    width: 100%;
+    height: 600px;
+    }
+    .part4-part1{
+        width: 90%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        gap :20px
+        
+    }
+    .foot-div1{
+        margin-top: 50px;
+        display: flex; 
+        width: 50%;
+        justify-content: space-around;
+        flex-direction: column-reverse;
+     }
+     .foot-div2{
+        width: 50%;
+       display: grid;
+       justify-content: space-around;
+       align-items: center;
+       margin-top: 50px;
+    }
+    .foot3{
+        width: 100%;
+    }
+    .foot1>img{
+        width: 100%;
+        height: 50px;
+    }
+    .part5{
+        height: 100px;
+        width: 100%;
+         
+       
+    }
+    .part5>p{
+        width: 100%;
+        margin-left: 0px;
+        display: flex;
+        text-align: center;
+       color: #848484;
+    }
+    
+}
